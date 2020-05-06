@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- rel => relation -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <style>
+      .white {
+        color: white;
+      }
+      .block {
+        height: 200px;
+      }
+
+      .mr-10 {
+        margin: 20px;
+      }
+      /* .padd-50{
+          padding: 0 50px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- bg =>background -->
+    <!-- success
+    info
+    primary
+    danger
+    sercondary -->
+    <!-- extra small -> col-*
+    small -> col-sm-*
+    medium -> col-md-*
+    large -> col-lg-*
+    extra large -> col-xl-* -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 padd-50">
+          <div class="bg-danger block"></div>
+        </div>
+        <div class="col-12 col-md-3 padd-50">
+          <div class="bg-warning block"></div>
+        </div>
+        <div class="col-12 col-md-3 padd-50">
+          <div class="bg-info block"></div>
+        </div>
+        <div class="col-12 col-md-3 padd-50">
+          <div class="bg-success block"></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-primary text-danger text-center text-uppercase font-weight-bold"
+    >
+      hello world!
+    </div>
+    <button class="btn btn-outline-danger">
+      <span
+        class="spinner-border spinner-border-sm"
+        role="status"
+        aria-hidden="true"
+      ></span>
+      <span class="sr-only">Loading...</span>
+    </button>
+  </body>
+</html>
